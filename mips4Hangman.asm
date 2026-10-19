@@ -579,26 +579,4 @@ head_skip_pixel:
     addiu $t2, $t2, -1
     bnez $t2, head_row
     jr   $ra
-#print a statement asking player 1 to input a word
-
-#player 1 enters only ONE a word and the program saves it as an array
-#create a new array that has the same length as the word inputted by player 1 but filled with dashes 
-	# (ie. dog becomes ---)
-#output this new array for player 2 to see
-#now its player 2's turn
-
-#player 2 has 6 lives
-#accept a single character from player 2 as an input 
-#check the array for each instance of the charactrer
-#if the array contains the letter, then alter the new array to show the same letter to player 2
-	#print the new array 
-	#if the new array has no more dashes
-		#the game ends and player 2 wins
-	#prompt player 2 to enter again
-#if the array does not contain the letter
-	#remove one of player 2's lives
-	#if all lives are gone
-		#the game ends and player 1 wins
-	#prompt player 2 to enter again
-
 
